@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1f242d;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar.logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+
+.navbar ul li a{ 
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.navbar ul li:hover a,
+.navbar ul li.active a{
+  color: rgb(129, 214, 129);
+}
+
+section h1{
+    height: 50vh;
+    text-align: center;
+    background-color: rgb(129, 214, 129);
+    height: 8vh;
+    margin-top: 5vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    font-size: 7vh;
+
+}
+
+section img{
+    width: 20vw;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+section.gallry{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    background-color: rgb(129, 214, 129);
+    justify-content: center;
+    padding: 25px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 20vh;
+    border-radius: 15px;
+}
+
+.ind{
+    margin-top: 100px;
+}
+
+.ind_2{
+    margin-top: 60px;  
+}
